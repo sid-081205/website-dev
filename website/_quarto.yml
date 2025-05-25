@@ -1,5 +1,5 @@
 project:
-  title: "ds105a-project-data-dabblers"
+  title: "data wars"
   type: website
   output-dir: ../docs
 
@@ -7,37 +7,3 @@ format:
   html:
     css: styles.css
     toc: true
-
-website:
-  title: "Data Dabblers"
-  navbar:
-    tools:
-      - icon: github
-        menu:
-          - text: Source Code
-            url:  https://github.com/lse-ds105/ds105a-project-data-dabblers
-          - text: Report a Bug
-            url:  https://github.com/lse-ds105/ds105a-project-data-dabblers/issues/new
-    search: true
-    left:
-      - text: "About"
-        href: index.html
-      - sidebar:eda
-      - text: "Visualisations"
-        href: visualisations.html
-      - text: "Conclusions"
-        href: conclusions.html
-      - text: "Contributions"
-        href: contributions.html
-
-  sidebar:
-    - id: eda
-      title: "Exploratory Data Analysis"
-      collapse-level: 2
-      contents: 
-        - text: "Data Overview"
-          href: data_overview.html
-        - text: "Data Collection"
-          href: collection.html
-        - text: "Data Cleaning"
-          href: cleaning.html
