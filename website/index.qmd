@@ -1,15 +1,19 @@
 ---
-title: "data wars"
+title: "What is the most habitable and profitable place in the Star Wars universe for humans?"
 format: html
 ---
-<br>
-
-Which star wars universe planet is the most habitable?
 
 <br>
 
-## Project Overview
-blah blah blah
+## 🏗️ Introduction
+
+**🍃 The year is 2050**
+
+🚀 The world faces an imminent crisis, as mysterious spaceships attacks the planet. They belong, cryptically, to the "empire". Earth is no longer habitable.
+
+🌟 In a desperate bid for survival, humans turn in hope, to a *galaxy far far away*.
+
+🗺️ But the question remains: Where within this vast galaxy could they possibly find a new home?
 
 <br>
 
@@ -19,5 +23,3 @@ very important stuff it is we believe
 <br>
 
 ## Our Timeline
-
-
