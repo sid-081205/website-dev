@@ -17,6 +17,7 @@
             width: 100%;
             height: 100%;
             box-sizing: border-box;
+            padding-bottom: 140px; /* Make room for images */
         }
         
         .content {
@@ -36,9 +37,18 @@
         .title {
             color: hotpink;
             font-size: 32px;
-            margin: 0;
+            margin: 0 0 20px 0;
             text-transform: uppercase;
             letter-spacing: 2px;
+        }
+        
+        .subtitle {
+            color: #f0f0f0;
+            font-size: 18px;
+            margin: 0;
+            text-transform: none;
+            letter-spacing: 1px;
+            line-height: 1.4;
         }
         
         h2 {
@@ -83,6 +93,30 @@
             cursor: pointer;
         }
         
+        /* Static Star Wars Images */
+        .static-image {
+            position: fixed;
+            bottom: 10px;
+            z-index: 1000;
+            max-width: 150px;
+            max-height: 120px;
+            opacity: 0.8;
+        }
+        
+        .bottom-left-image {
+            left: 10px;
+        }
+        
+        .bottom-right-image {
+            right: 10px;
+        }
+        
+        .static-image:hover {
+            opacity: 1;
+            transform: scale(1.1);
+            transition: all 0.3s ease;
+        }
+        
         /* Scrollbar styling for retro theme */
         ::-webkit-scrollbar {
             width: 12px;
@@ -106,10 +140,15 @@
             body {
                 font-size: 10px;
                 padding: 10px;
+                padding-bottom: 140px; /* Make room for images */
             }
             
             .title {
                 font-size: 24px;
+            }
+            
+            .subtitle {
+                font-size: 14px;
             }
             
             h2 {
@@ -119,6 +158,11 @@
             .content {
                 padding: 10px;
             }
+            
+            .static-image {
+                max-width: 100px;
+                max-height: 80px;
+            }
         }
     </style>
 </head>
@@ -127,13 +171,10 @@
     <main class="content">
         <header class="title-block-header">
             <div class="title-container">
-                <h1 class="title">What is the most habitable and profitable place in the Star Wars universe for humans?</h1>
+                <h1 class="title">Data Wars</h1>
+                <p class="subtitle">What is the most habitable and profitable place in the Star Wars universe for humans?</p>
             </div>
         </header>
-
-        <br>
-        
-        <p>Which star wars universe planet is the most habitable?</p>
         
         <br>
         
@@ -160,5 +201,10 @@
         </section>
 
     </main>
+
+    <!-- Static Star Wars Images -->
+    <img src="images/darth-vader.png" alt="Star Wars Character Left" class="static-image bottom-left-image">
+    <img src="images/yoda.png" alt="Star Wars Character Right" class="static-image bottom-right-image">
+
 </body>
 </html>
